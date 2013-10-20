@@ -8,6 +8,7 @@ var app = connect()
     var options = {
       width: req.query.width || 290
     , height: req.query.height || 150
+    , scale: req.query.scale || 2
     }
     res.writeHead(200, {'Content-Type': 'image/png'})
     fussball(options).encode(function (data, error) {
