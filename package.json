@@ -1,0 +1,16 @@
+{
+  "name": "fussball",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Generate random images with football players.",
+  "dependencies": {
+    "png": "~3.0.3",
+    "connect": "~2.9.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "author": "Andrey Kuzmin (unsoundscapes.com)",
+  "license": "MIT"
+}
