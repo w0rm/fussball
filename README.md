@@ -3,6 +3,8 @@ fussball
 
 Generate random images with football players.
 
+![Fussball](https://raw.github.com/w0rm/fussball/master/fussball.png)
+
 ## Instructions
 
 Install dependencies (connect and node-png) and start server:
